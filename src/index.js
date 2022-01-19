@@ -6,6 +6,7 @@ import SpecialRequests from "./pages/SpecialRequests";
 import Cart from "./pages/Cart";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ReactDOM from "react-dom";
+import './index.css'
 const App = () => {
   return (
     <BrowserRouter>
