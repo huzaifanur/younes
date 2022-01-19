@@ -1,5 +1,5 @@
 
-const data = {
+export  const data = {
     products: [
         {id:'1', name:'Pita Bread', price:'12000L.L.', image:""},{id:'12', name:'Birthday Cake', price:'75000L.L.', image:"./products/"},
         {id:'2', name:'Brown Pita Bread', price:'15000L.L.', image:"./products/brownpita"},{id:'20', name:'Fuit Filled Layered Cake', price:'180000L.L.', image:"./products/"},
