@@ -1,17 +1,17 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Welcome from '../components/Welcome'
-import About from '../components/About'
-import Contact from '../components/Contact'
+import React from "react";
+import Welcome from "../components/Welcome";
+import About from "../components/About";
+import Contact from "../components/Contact";
+import Navbar from "../components/Navbar/Navbar";
 const Main = () => {
-    return (
-        <div>
-            <Navbar/>
-            <Welcome/>
-            <About/>
-            <Contact />
-        </div>
-    )
-}
+  return (
+    <div>
+      <Navbar />
+      <Welcome />
+      <About />
+      <Contact />
+    </div>
+  );
+};
 
-export default Main
+export default Main;
